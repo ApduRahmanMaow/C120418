@@ -23,6 +23,8 @@ class Application extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
+        appBar: AppBar(
+            title: Text("My First Project", style: TextStyle(fontSize: 30))),
         body: SafeArea(
           child: ListView.builder(
             itemCount: 3,
